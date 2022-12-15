@@ -21,14 +21,15 @@ function criaLinha(bcdata){
 }
 
 function main(){
-    res = fazGet('https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados/ultimos/10?formato=json')
-    let dados = JSON.parse(res)
+    dados = fazGet('https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados/ultimos/10?formato=json')
+    console.log(dados)
+    /*let dados = JSON.parse(dados)
     let tabela = document.getElementById('tabela')
 
     dados.forEach(element => {
         let linha = criaLinha(element)
         tabela.appendChild(linha)
-    });
+    });*/
 
     /*
     * Para cada data
