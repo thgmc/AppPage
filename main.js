@@ -26,10 +26,10 @@ function main(){
     let tabela = document.getElementById('tabela')
     //console.log(dados)
 
-    dados.array.forEach(element => {
+    /*dados.array.forEach(element => {
         let linha = criaLinha(element)
         tabela.appendChild(linha)
-    });
+    });*/
 
     /*
     * Para cada data
