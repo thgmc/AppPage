@@ -6,10 +6,11 @@ function fazGet(url){
 }
 
 function criaLinha(bcdata){
+    console.log(bcdata)
     linha = document.createElement("tr")
     tdData = document.createElement("td")
     tdValor = document.createElement("td")
-    
+
     tdData.innerHTML = bcdata.data
     tdValor.innerHTML = bcdata.valor
 
