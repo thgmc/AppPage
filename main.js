@@ -26,7 +26,7 @@ function main(){
     let tabela = document.getElementById('tabela')
     //console.log("Hello World!")
 
-    dados.array.forEach(element => {
+    dados.forEach(element => {
         let linha = criaLinha(element)
         tabela.appendChild(linha)
     });
